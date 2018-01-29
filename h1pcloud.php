@@ -18,7 +18,7 @@ use \Host1Plus\Exception\BadRequest;
 function h1pcloud_MetaData()
 {
     return [
-        'DisplayName'    => 'Host1Plus Cloud Reseller Module',
+        'DisplayName'    => 'Host1Plus Cloud Partner Module',
         'APIVersion'     => '1.1',
         'RequiresServer' => true,
     ];

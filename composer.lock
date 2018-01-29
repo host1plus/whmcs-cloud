@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8cc824e708ce64aa202866c817291713",
+    "content-hash": "bd69a9b8eec3348045626b53a355b7f0",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -188,6 +188,27 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
+            "name": "partner/lib",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/host1plus/lib.git",
+                "reference": "caf1f1a554811373ddcf092375033ef1f04d8e67"
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Host1Plus\\": "Host1Plus",
+                    "REST\\": "REST",
+                    "Utilities\\": "Utilities"
+                }
+            },
+            "time": "2018-01-29T14:37:41+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "1.0.1",
             "source": {
@@ -236,27 +257,6 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
-        },
-        {
-            "name": "reseller/lib",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/host1plus/lib.git",
-                "reference": "1311a94697e7ac1f7b8648ab62d8d0c92a8ded70"
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Host1Plus\\": "Host1Plus",
-                    "REST\\": "REST",
-                    "Utilities\\": "Utilities"
-                }
-            },
-            "time": "2018-01-24T14:58:48+00:00"
         }
     ],
     "packages-dev": [],
